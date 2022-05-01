@@ -1,0 +1,48 @@
+body 
+{
+    background-image: linear-gradient(to bottom right, #e135ff, #f37dd9, #e99be4);
+}
+
+#clear_canvas
+{
+    font-size: 150%;
+    font-family: cursive;
+    color:rgb(169, 0, 0);
+}
+
+#show_sketch
+{
+    font-size: 70%;
+    font-family:sans-serif;
+    color:rgb(134, 0, 136);
+    float:right;
+}
+
+h1
+{
+    color:rgb(71, 0, 72);
+    font-family: fantasy;
+    background-color:#f8dfff;
+}
+
+canvas 
+{
+    border: 6px solid white;
+    border-radius: 20px;
+    animation-name: example; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px rgb(179, 0, 255);}
+    to{box-shadow: 1px 1px 38px rgb(255, 128, 204);}
+}
+
+p
+{
+padding-top: 10px;
+font-size: 25px;
+}
